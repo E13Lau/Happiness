@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "84F535717C35CE0DA1D0FB867B383EA84E8AC7DF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5BE23CE9B18401A4383475148C73EDD05727027" : 0,
+    "84F535717C35CE0DA1D0FB867B383EA84E8AC7DF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB6552A5-AE8E-44D8-A9D9-B96D3BE42848",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5BE23CE9B18401A4383475148C73EDD05727027" : "",
+    "84F535717C35CE0DA1D0FB867B383EA84E8AC7DF" : "Happiness\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Happiness",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Happiness.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chn-lyzhi\/Happiness.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84F535717C35CE0DA1D0FB867B383EA84E8AC7DF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "code.csdn.net:everfire130\/ydpack.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5BE23CE9B18401A4383475148C73EDD05727027"
+    }
+  ]
+}

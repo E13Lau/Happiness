@@ -59,8 +59,8 @@
 				EF9CC2CE1D0713060045CFF6 /* AppDelegate.swift */,
 				EF9CC2E21D0713790045CFF6 /* HappinessViewController.swift */,
 				EF9CC2E41D0713D30045CFF6 /* FaceView.swift */,
-				EF9CC2D51D0713060045CFF6 /* Assets.xcassets */,
 				EF9CC2D21D0713060045CFF6 /* Main.storyboard */,
+				EF9CC2D51D0713060045CFF6 /* Assets.xcassets */,
 				EF9CC2D71D0713060045CFF6 /* LaunchScreen.storyboard */,
 				EF9CC2DA1D0713060045CFF6 /* Info.plist */,
 			);
@@ -292,6 +292,7 @@
 				EF9CC2DF1D0713060045CFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

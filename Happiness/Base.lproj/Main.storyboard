@@ -20,6 +20,18 @@
                             <view contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="GPJ-Ym-pGA" customClass="FaceView" customModule="Happiness" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="scale">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="2It-OL-Vvg" appends="YES" id="1tA-kw-7iI"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -30,8 +42,16 @@
                             <constraint firstItem="GPJ-Ym-pGA" firstAttribute="leading" secondItem="jbI-qx-qog" secondAttribute="leading" id="ngf-tv-RlT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="GPJ-Ym-pGA" id="Fw6-N1-rhs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x8z-aq-ZWE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="2It-OL-Vvg">
+                    <connections>
+                        <action selector="changeHappiness:" destination="03K-cP-HHd" id="Xma-eb-gmN"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="330" y="498"/>
         </scene>
